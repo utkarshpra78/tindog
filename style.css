@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Lato:wght@400;700&family=Montserrat&family=Poppins:wght@400;700&family=Roboto:wght@400;500;700&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Lato:wght@400;700&family=Montserrat&family=Poppins:wght@400;700&family=Roboto:wght@400;500;700&family=Ubuntu&display=swap');
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+h1{
+  font-family: 'Montserrat-black', sans-serif;
+  size: 3rem;
+  line-height: 1.5;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+h3{
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+p{
+  color: #8f8f8f;
+}
+body{
+  font-family: 'Montserrat';
+}
+.navbar{
+  padding:0 0 4.5rem ;
+}
+.navbar-brand{
+   font-family:'ubuntu';
+   font-size:2.5rem;
+   font-weight: bold;
+}
+.nav-item{
+  padding: 0 15px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family:'Montserrat' ;
+}
+.download-button{
+  margin: 20% 3% 3% 0%;
+}
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+}
+
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+}
+.feature-box{
+  text-align: center;
+  padding: 4.5%;
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin-right: 2%;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 5%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+  background-color: #fff;
+}
+.pricing-coloumn{
+  padding: 3% 2%;
+}
+@media (max-width: 1028px){
+
+  #title{
+    text-align: center;
+  }
+   .title-image{
+    position: static;
+    transform: rotate(0);
+   }
+}
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 5% 10%;
+  color: #fff;
+}
+.cta-heading{
+  font-weight: bolder;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#footer{
+  background-color: #fff;
+  text-align: center;
+  color:#8f8f8f;
+  padding: 7% 15%;
+}
+.icon1:hover{
+  color: black;
+}
+.icon1{
+  margin: 2% 0.5%;
+}
